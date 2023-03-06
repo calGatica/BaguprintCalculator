@@ -27,7 +27,7 @@ def BarraColor(Key='Color'):
             valor = j
     return valor
 
-st.title(r'\centered Cotización Plano')
+st.title(r'$$Cotización$$ $$Plano$$')
 
 Formatos = ['A3 (420 x 297)', 'A2 (594 x 420)', 'A1 (841 x 594)', 'A0 (1189 x 841)', 'Personalizado']
 valoresFormatos = [.297, .420, .594, .841]
