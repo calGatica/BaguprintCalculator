@@ -30,7 +30,7 @@ def BarraColor(Key='Color'):
 st.title('Cotización Plano')
 
 Formatos = ['A3 (420 x 297)', 'A2 (594 x 420)', 'A1 (841 x 594)', 'A0 (1189 x 841)', 'Personalizado']
-valoresFormatos = [.297, .420, .594, .841]
+valoresFormatos = [.297, .420, .594, 1.189]
 st.header('Formato')
 formato = st.selectbox(r'Seleccione el formato de su plano (mm $\times$ mm)', options = Formatos)
 if formato == 'Personalizado':
