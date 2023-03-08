@@ -64,8 +64,10 @@ n = st.number_input('Número de copias', min_value=1, label_visibility='collapse
 for i, j in zip(Formatos[:-1], valoresFormatos):
     if formato == i:
         VALOR = int(j*valor_Ref*n + n*dVal)
-        st.header('Valor: :green[$ %i]' %VALOR)
+        st.header('Valor: :green[$ %i] *' %VALOR)
 
 if formato == 'Personalizado':
     VALOR = int(customFormat*valor_Ref*n + n*dVal)
-    st.header('Valor: :green[$ %i]' %VALOR)
+    st.header('Valor: :green[$ %i] *' %VALOR)
+
+st.write('* Valor sujeto a variaciones')
