@@ -1,5 +1,6 @@
 import streamlit as st
-# import numpy as np
+
+st.set_page_config(title='Calculadora BAGUPrint', page_icon=':computer:')
 
 def BarraBN(Key='BN'):
     cantidadesBN = ['Líneas', '25%', '50%', '75%', '100%']
